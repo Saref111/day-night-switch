@@ -15,6 +15,10 @@
     clip: rect(1px, 1px, 1px, 1px);
 }
 
+body {
+    background-color: rgba(0,0,0,0.1);
+}
+
 div {
     position: fixed;
     top: 50%;
