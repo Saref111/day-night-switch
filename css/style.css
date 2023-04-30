@@ -81,3 +81,15 @@ input:checked ~ label::before {
                 -30px 0 0 148px  rgba(255, 255, 255, 0.1);
     transition: all 1s ease-out;
 }
+
+.night {
+    display: none;
+}
+
+input:checked ~ label > .night {
+    display: block;
+}
+
+input:checked ~ label > .day {
+    display: none;
+}
