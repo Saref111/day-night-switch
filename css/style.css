@@ -41,7 +41,7 @@ label {
     background-image: url("../img/clouds-bg.svg"),
                       url("../img/clouds-fg.svg"),
                       url("../img/stars.svg");
-    background-position: right -45px, right 20px, 50px -140px;        
+    background-position: right -45px, 101% 20px, 50px -140px;        
     box-shadow: 0 6px 4px rgba(255, 255, 255, 0.5), 
                 0 -4px 4px #C2C7D0, 
                 inset 0 5px 20px rgba(35, 39, 55, 0.6);
@@ -71,6 +71,9 @@ label::before {
 input:checked ~ label {
     background-color: #232737;
     background-position: right 170px, right 200px, 50px center;
+    box-shadow: 0px 6px 4px rgba(255, 255, 255, 0.5), 
+                0px -4px 4px #C2C7D0, 
+                inset 0px 5px 20px rgba(35, 39, 55, 0.6);
     transition: all 1s ease-out;
 }
 
