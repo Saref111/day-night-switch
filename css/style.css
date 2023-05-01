@@ -28,6 +28,7 @@ div {
 
 
 label {
+    cursor: pointer;
     display: flex;
     position: relative;
     width: 560px;
